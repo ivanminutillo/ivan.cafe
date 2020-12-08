@@ -28,13 +28,13 @@ tags:
 
 
 
-Welcome to the year 2030. Welcome to my critical zone - or should I say, "our critical “zone. 
+Welcome to the year 2030. Welcome to my critical zone - or should I say, "our critical“ zone. 
 I live there along with other humans, animals, plants, machines, servers, mushrooms, AI, mountains and aquifers.
 It might seem odd to you, but it makes perfect sense to us in our critical zone. Everything that you considered a resource or a service has now become a kinship to us.
 
 > We started by mapping our territory and our needs, and the needs of our needs - and so on.
 
-**We immediately realized how our survival could not be separated from that of our territory and its other inhabitants: we have therefore become relatives, family.**
+**We immediately realized how our survival could not be separated from that of our territory and its other inhabitants: we have therefore started making kin, family.**
 
 As [Anna Tsing](https://press.princeton.edu/our-authors/tsing-anna-lowenhaupt) writes: “Everyone carries a history of contamination: purity is not an option”.
 
