@@ -3,19 +3,22 @@ layout: default
 prism: true
 ---
 
-<div class="container max-w-4xl mt-6  px-6">
-    <div class="pb-5 mb-5 border-b border-gray-100">
-        <h1 class="font-bold text-5xl">{{title}}</h1>
-        <p class="text-center text-base leading-6 font-medium text-gray-500">
-            <time> {{ date | readableDate }}
-                by
-                <a>{{ author }}</a>
+<div class="max-w-screen-lg mx-auto mt-0 lg:px-0 px-6">
+    <div class="mx-auto max-w-screen-md px-6 lg:px-0 py-16 pb-8">
+        <div class="grid grid-cols-2 items-center">
+          <h1 class="text-5xl text-center col-span-2 z-10 font-extrabold leading-normal tracking-widest">{{title}}</h1>
+          <div  style="background-image: url({{ image }});" class="bg-no-repeat bg-cover bg-center bg-gray-200 col-span-2 mt-4 rounded h-80"></div>
+            <span class="inline mt-4 mx-auto col-span-2  items-center px-3 py-0.5 rounded-full text-sm font-medium text-pink-500">
+                <time>Published on {{ date | readableDate }}</time>
+            </span>
+        </div>
+      </div>
 
-            </time>
-        </p>
-
-    </div>
-    <article class="prose lg:prose-xl my-4 mx-auto">
-        {{ content | safe }}</article>
+      <article class="mx-auto max-w-screen-md px-6 mt-8 lg:px-0">
+        
+        <div class="mt-8 prose mx-auto max-w-screen-md lg:prose-xl">
+        {{ content | safe }}
+        </div>
+    </article>
 
 </div>
