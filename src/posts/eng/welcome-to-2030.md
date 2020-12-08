@@ -1,6 +1,6 @@
 ---
 title: Here's how life could change in my critical zone by the year 2030
-description: Sinossi di Tracciare la rotta - Come orientarsi in politica di Bruno Latour
+description: Welcome to the year 2030. Welcome to my critical zone - or should I say, "our critical “zone. 
 date: 2020-12-08T15:13:13.021Z
 image: ../../../static/img/2030.jpg
 tags:
