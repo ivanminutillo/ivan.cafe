@@ -57,7 +57,7 @@ Funny how the city dweller considers primary activities such as: walking, cyclin
 In our city we don't pay any rent, because we built our houses or we use to live in the empty and abandoned houses in small 19th century villages.
 
 Once in awhile, I will choose to cook for myself. Other times we eat together with our neighbors.
-With them we share the vegetable garden, servers, photovoltaic panels, an oven, a small wooden mill with very smooth stone wheels, a field of about 120 olive trees, fermenters, a 3D printer, containers and presses for oil and wine. Call it circular economy, we prefer **survival economy**.
+With them we share the vegetable garden, servers, photovoltaic panels, an oven, a small wooden mill with very smooth stone wheels, a field of about 120 olive trees, fermenters, a 3D printer, containers and presses for oil and wine. Call it circular economy, we prefer precariousness economy (or whatever, we don't care really...).
 
 Climate change and pandemics have imposed a new, powerful reality: the exploitation of resources imposed by modernity to continue its work of self-empowerment to an undetermined purpose, collides with the possibility of a concrete continuation of human life on earth.
 
