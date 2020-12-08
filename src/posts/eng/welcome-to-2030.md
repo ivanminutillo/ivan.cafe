@@ -19,7 +19,7 @@ tags:
     <div class="ml-3">
       <div class="mt-2 text-sm text-yellow-700">
         <p>
-          This blog post is a reply to the <a class="text-yellow-400" href="https://www.weforum.org/agenda/2016/11/how-life-could-change-2030/" target="blank">original one</a> published on the World economic forum blog. I tried to use the original structure of the article, imagining an alternative future from the miserable/enthusiastic one proposed by the author. I'd love to hear your version!
+          This blog post is a reply to the <a class="text-yellow-400" href="https://www.weforum.org/agenda/2016/11/how-life-could-change-2030/" target="blank">original one</a> published on the World economic forum blog. I tried to use the original structure of the article, imagining an alternative future from the miserable/enthusiastic one proposed by the author. I'd love to read your version!
         </p>
       </div>
     </div>
