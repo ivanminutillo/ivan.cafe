@@ -2,7 +2,7 @@
 title: Sinossi del libro di Bruno Latour - Tracciare la rotta
 description: Sinossi di Tracciare la rotta - Come orientarsi in politica di Bruno Latour
 date: 2020-09-23T15:13:13.021Z
-image: ../../static/img/tracciarelarotta.jpg
+image: ../../../static/img/tracciarelarotta.jpg
 tags:
   - latour
   - sinossi

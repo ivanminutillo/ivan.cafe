@@ -4,9 +4,9 @@ prism: true
 ---
 
 <div class="max-w-screen-lg mx-auto mt-0 lg:px-0 px-6">
-    <div class="mx-auto max-w-screen-md px-6 lg:px-0 py-16 pb-8">
+    <div class="mx-auto max-w-screen-md py-16 pb-8">
         <div class="grid grid-cols-2 items-center">
-          <h1 class="text-5xl text-center col-span-2 z-10 font-extrabold leading-normal tracking-widest">{{title}}</h1>
+          <h1 class="text-4xl lg:text-5xl text-left lg:text-center col-span-2 z-10 font-extrabold leading-snug lg:leading-normal tracking-wide lg:tracking-widest">{{title}}</h1>
           <div  style="background-image: url({{ image }});" class="bg-no-repeat bg-cover bg-center bg-gray-200 col-span-2 mt-4 rounded h-80"></div>
             <span class="inline mt-4 mx-auto col-span-2  items-center px-3 py-0.5 rounded-full text-sm font-medium text-pink-500">
                 <time>Published on {{ date | readableDate }}</time>
@@ -14,8 +14,7 @@ prism: true
         </div>
       </div>
 
-      <article class="mx-auto max-w-screen-md px-6 mt-8 lg:px-0">
-        
+    <article class="mx-auto max-w-screen-md mt-8">
         <div class="mt-8 prose mx-auto max-w-screen-md lg:prose-xl">
         {{ content | safe }}
         </div>

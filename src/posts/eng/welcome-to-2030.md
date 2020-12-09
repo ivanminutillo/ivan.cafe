@@ -28,7 +28,7 @@ tags:
 
 
 
-Welcome to the year 2030. Welcome to my critical zone - or should I say, "our critical“ zone. 
+Welcome to the year 2030. Welcome to my critical zone - or should I say, "our critical zone". 
 I live there along with other humans, animals, plants, machines, servers, mushrooms, AI, mountains and aquifers.
 It might seem odd to you, but it makes perfect sense to us in our critical zone. Everything that you considered a resource or a service has now become a kinship to us.
 
@@ -38,7 +38,7 @@ It might seem odd to you, but it makes perfect sense to us in our critical zone.
 
 As [Anna Tsing](https://press.princeton.edu/our-authors/tsing-anna-lowenhaupt) writes: “Everyone carries a history of contamination: purity is not an option”.
 
-When the second pandemic hit us hard, we didn't let ourselves be caught unprepared. For a long time it made any sense to live in the city, and be totally dependent on private infrastructure, services and subscriptions which made us so powerless and at the same time they were proved so unsuitable to replace the common good infrastructure during the first pandemic.
+When the second pandemic hit, it didn't catch us unawares. It had been a long time since life in cities was not a valid alternative fo us. Being totally dependent on private infrastructure, services and subscriptions made us truly powerless during the first wave of lockdowns and climate disasters. At the same time the city public and private infrastucture proved unsuitable to replace the common good infrastructure and mutual practices.
 
 Once settled in the countryside, things started to move quickly. 
 
@@ -46,9 +46,9 @@ Among other things, we created federated internet networks to share and receive 
 The chaos caused by the media during the first pandemic taught us that access to information is harmful without total and granular control over it.
 
 
-Transportation dropped dramatically in price. It made no sense for us to own cars anymore, because there were no longer any reasons to travel long distances and access to oil and electricity was no longer taken for granted. We have some cars in common, and that's enough.
+Transportation dropped dramatically in price. It made no sense for us to own cars anymore, because there were no longer any reasons to travel long distances, at the same access to oil and electricity was no longer taken for granted. We have some cars in common, and that's enough.
 
-I often use my bicycle when I need to travel to shop or visit friends. I don't consider it a physical exercise, and I would gladly do without it - given the hills where I live - but it is the fastest and cheapest way to carry loads with me.
+I often use my bicycle when I need to travel to shop or visit friends. I don't consider it jogging, and sometimes I would gladly avoid it for a more confortable way  - given the hills where I live - but it is the fastest and cheapest way to carry loads with me.
 
 Funny how the city dweller considers primary activities such as: walking, cycling, cooking, drawing and growing plants as mere entertainment and pastimes.
  
@@ -67,9 +67,11 @@ We are learning the art of living on a damaged planet, and we want to pass it on
 
 ### They live different kinds of lives within the city.
 
-Some time I think at all the people who still lives in cities. Those we lost on the way. Those who decided to externalize any responsibility to technology. Those who still believe in the empty promises of progress. Those who believed AI could have fixed the political system and environmental issues, but they ended up losing any control upon their life. 
+Some time I think at all the people who still lives in cities. Those we lost on the way. Those who decided to externalize any responsibility to technology. Those who still believe in the empty promises of progress. Those who believed AI could have fixed the political system and environmental issues, but they ended up losing any control upon their life.
+
 They live different kind of lives within the city. Some have formed fully virtual communities. Others formed fanatical cults around the corporation they work for.
-Most of them still believe technology will solve every problem and everything will be fine in the end. It seems to us they lose any capacity to produce critical toughts despite the last 2 pandemies and the climate disaster; their belief in technology is no different than our ancestors beliefs in miracles, saints, angels and devil.
+
+Most of them still believe technology will solve every problem and everything will be fine in the end. It seems to us they lose any capacity to produce critical toughts despite the last two pandemies and the tightening of environmental conditions; their belief in technology is no different than our ancestors beliefs in miracles, saints, angels and devil.
 
 All in all, it is a good life. Much better than the path we were on, where we were detouched and deresponsibilized from every aspect of our life. We still have all these terrible things happening: lifestyle diseases, climate change, the refugee crisis, environmental degradation, completely congested cities, water pollution, air pollution, social unrest and unemployment. 
 
@@ -77,4 +79,4 @@ But finally **we decided to land on earth**, and **be terrestrial** together wit
 
 ---
 
-_Much of the narrative, ideas, word, world, fabulation, imagination used in the article is inherited by the latest authors I am reading and falling in love: Donna Haraway, Bruno Latour, Anna Tsing, Eduardo Kohn._
+_Much of the narrative, ideas, words, worlds, fabulations, imaginations used in the article are inherited by the latest authors I am reading and falling in love: Donna Haraway, Bruno Latour, Anna Tsing, Eduardo Kohn._
