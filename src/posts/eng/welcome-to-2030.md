@@ -27,55 +27,49 @@ tags:
 </div>
 
 
+Welcome to the year 2030. Welcome to my critical zone - or should I say, "our critical zone". I live there along with other humans, animals, plants, machines, servers, mushrooms, AI, mountains, and aquifers. It might seem odd to you, but it makes perfect sense to us in our critical zone. Everything that you considered a resource or a service has now become a kinship to us.
 
-Welcome to the year 2030. Welcome to my critical zone - or should I say, "our critical zone". 
-I live there along with other humans, animals, plants, machines, servers, mushrooms, AI, mountains and aquifers.
-It might seem odd to you, but it makes perfect sense to us in our critical zone. Everything that you considered a resource or a service has now become a kinship to us.
-
-> We started by mapping our territory and our needs, and the needs of our needs - and so on.
+We started by mapping our territory and our needs, and the needs of our needs - and so on.
 
 **We immediately realized how our survival could not be separated from that of our territory and its other inhabitants: we have therefore started making kin, family.**
 
 As [Anna Tsing](https://press.princeton.edu/our-authors/tsing-anna-lowenhaupt) writes: “Everyone carries a history of contamination: purity is not an option”.
 
-When the second pandemic hit, it didn't catch us unawares. It had been a long time since life in cities was not a valid alternative fo us. Being totally dependent on private infrastructure, services and subscriptions made us truly powerless during the first wave of lockdowns and climate disasters. At the same time the city public and private infrastucture proved unsuitable to replace the common good infrastructure and mutual practices.
+When the second pandemic hit, it didn't catch us unawares. It had been a long time since life in cities was not a valid alternative for us. Being totally dependent on private infrastructure, services, and subscriptions made us truly powerless during the first wave of lockdowns and climate disasters. At the same time, the city's public and private infrastructure proved unsuitable to replace the common good infrastructure and mutual practices.
 
-Once settled in the countryside, things started to move quickly. 
+Once settled in the countryside, things started to move quickly.
 
-Among other things, we created federated internet networks to share and receive information in a controlled way.
-The chaos caused by the media during the first pandemic taught us that access to information is harmful without total and granular control over it.
+Among other things, we created federated internet networks to share and receive information in a controlled way. The chaos caused by the media during the first pandemic taught us that access to information is harmful without total and granular control over it.
 
+Transportation dropped dramatically in price. It made no sense for us to own cars anymore because there were no longer any reasons to travel long distances, at the same access to oil and electricity was no longer taken for granted. We have some cars in common, and that's enough.
 
-Transportation dropped dramatically in price. It made no sense for us to own cars anymore, because there were no longer any reasons to travel long distances, at the same access to oil and electricity was no longer taken for granted. We have some cars in common, and that's enough.
+I often use my bicycle when I need to travel to shops or visit friends. I don't consider it jogging, and sometimes I would gladly avoid it for a more comfortable way - given the hills where I live - but it is the fastest and cheapest way to carry loads with me.
 
-I often use my bicycle when I need to travel to shop or visit friends. I don't consider it jogging, and sometimes I would gladly avoid it for a more confortable way  - given the hills where I live - but it is the fastest and cheapest way to carry loads with me.
+Funny how the city dweller considers primary activities such as walking, cycling, cooking, drawing, and growing plants as mere entertainment and pastimes.
 
-Funny how the city dweller considers primary activities such as: walking, cycling, cooking, drawing and growing plants as mere entertainment and pastimes.
- 
 ### Environmental problems are not far away
 
-In our city we don't pay any rent, because we built our houses or we use to live in the empty and abandoned houses in small 19th century villages.
+In our city, we don't pay any rent, because we built our houses or we use to live in the empty and abandoned houses in small 19th century villages.
 
-Once in awhile, I will choose to cook for myself. Other times we eat together with our neighbors.
-With them we share the vegetable garden, servers, photovoltaic panels, an oven, a small wooden mill with very smooth stone wheels, a field of about 120 olive trees, fermenters, a 3D printer, containers and presses for oil and wine. Call it circular economy, we prefer precariousness economy (or whatever, we don't care really...).
+Once in a while, I will choose to cook for myself. Other times we eat together with our neighbors. With them, we share the vegetable garden, servers, photovoltaic panels, an oven, a small wooden mill with very smooth stone wheels, a field of about 120 olive trees, fermenters, a 3D printer, containers, and presses for oil and wine. Call it circular economy, we prefer precariousness economy (or whatever, we don't care really...).
 
-Climate change and pandemics have imposed a new, powerful reality: the exploitation of resources imposed by modernity to continue its work of self-empowerment to an undetermined purpose, collides with the possibility of a concrete continuation of human life on earth.
+Climate change and pandemics have imposed a new, powerful reality: the exploitation of resources - imposed by modernity to continue its work of self-empowerment to an undetermined purpose - collides with the possibility of a concrete continuation of human life on earth.
 
 ## Progress is a myth.
 
-We are learning the art of living on a damaged planet, and we want to pass it on to future generations, together with new stories, more suited to living this new era than those that have shaped and conditioned the past century and its imaginary.
+We are learning the art of living on a damaged planet, and we want to pass it on to future generations, together with new stories, more suited to living this new era than those that have shaped and conditioned the past century and it's imaginary.
 
 ### They live different kinds of lives within the city.
 
-Some time I think at all the people who still lives in cities. Those we lost on the way. Those who decided to externalize any responsibility to technology. Those who still believe in the empty promises of progress. Those who believed AI could have fixed the political system and environmental issues, but they ended up losing any control upon their life.
+Sometimes I think about all the people who still live in cities. Those we lost on the way. Those who decided to externalize any responsibility to technology. Those who still believe in the empty promises of progress. Those who believed AI could have fixed the political system and environmental issues, but they ended up losing any control upon their life.
 
-They live different kind of lives within the city. Some have formed fully virtual communities. Others formed fanatical cults around the corporation they work for.
+They live different kinds of lives within the city. Some have formed fully virtual communities. Others formed fanatical cults around the corporation they work for.
 
-Most of them still believe technology will solve every problem and everything will be fine in the end. It seems to us they lose any capacity to produce critical toughts despite the last two pandemies and the tightening of environmental conditions; their belief in technology is no different than our ancestors beliefs in miracles, saints, angels and devil.
+Most of them still believe technology will solve every problem and everything will be fine in the end. It seems to us they lose any capacity to produce critical thoughts despite the last two pandemics and the tightening of environmental conditions; their belief in technology is no different than our ancestors' beliefs in miracles, saints, angels, and devils.
 
-All in all, it is a good life. Much better than the path we were on, where we were detouched and deresponsibilized from every aspect of our life. We still have all these terrible things happening: lifestyle diseases, climate change, the refugee crisis, environmental degradation, completely congested cities, water pollution, air pollution, social unrest and unemployment. 
+All in all, it is a good life. Much better than the path we were on, where we were detached and deresponsibilized from every aspect of our life. We still have all these terrible things happening: lifestyle diseases, climate change, the refugee crisis, environmental degradation, completely congested cities, water pollution, air pollution, social unrest, and unemployment.
 
-But finally **we decided to land on earth**, and **be terrestrial** together with other terrestrials, making kin and create new stories that will form new civilizations: united in the effort to live and die well with each other.
+But finally, we decided to land on earth, and be terrestrial together with other terrestrials, making kin and create new stories that will form new civilizations: united in the effort to live and die well with each other.
 
 ---
 
