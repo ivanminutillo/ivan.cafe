@@ -9,8 +9,6 @@ tags:
   - futuro
 ---
 
-# Circondati dal futuro
-
 Si sente sempre parlare di post-capitalismo come un'era a venire, situata sempre un po più in la, in un futuro prossimo ma non ancora ben determinato. 
 
 Nelle visioni più frequenti, il passaggio dell'occidente dal capitalismo al post-capitalismo sarà piuttosto traumatico: crisi economiche, sociali ed ecologiche  distruggeranno il mondo per come lo conosciamo, per far spazio alle peggiori visioni apocalittiche, con sfumature utopiche o distopiche a seconda della narrativa.
