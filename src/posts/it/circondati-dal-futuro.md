@@ -1,6 +1,6 @@
 ---
 title: Circondati dal futuro
-description: Una nuova estensione di bonfire permette di definire delle equazioni per distribuire risorse sulla base di parametri
+description: Si sente sempre parlare di post-capitalismo come un'era a venire, situata sempre un po più in la, in un futuro prossimo ma non ancora ben determinato.
 date: 2021-03-14T15:13:13.021Z
 image: ../../../static/img/value.jpeg
 tags:
