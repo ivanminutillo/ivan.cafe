@@ -1,9 +1,38 @@
-<div class="max-w-screen-md mx-auto bg-white">
-    <nav class="p-6 lg:px-0" x-data="{ isOpen: false }" @keydown.escape="isOpen = false">
-        <!--Logo etc-->
-        <div class="flex items-center">
-            <a href="/" class="text-gray-800 hover:text-gray-700 text-xl font-extrabold tracking-wide"><span class="mr-2">☕</span><b>ivan cafe</b></a>
+<div x-data="{ open: false }" @keydown.escape="open = false" class="max-w-screen-lg mx-auto">
+  <nav class="pt-4 relative lg:px-0 flex items-center" >
+    {# <img src="static/img/bonfire.png" class="hidden lg:block w-20 -ml-10 transform rotate-180 absolute left-1/2 -top-8" /> #}
+    <div class="flex flex-1 items-center">
+        <div class="inset-y-0 left-0 flex mr-3 items-center sm:hidden">
+          <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-base-content text-opacity-80 hover:text-opacity-100 hover:bg-base-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" @click="open = !open" aria-expanded="false" x-bind:aria-expanded="open.toString()">
+            <span class="sr-only">Open main menu</span>
+            <svg x-description="Icon when menu is closed. Heroicon name: outline/menu" x-state:on="Menu open" x-state:off="Menu closed" class="block w-8 h-8" :class="{ 'hidden': open, 'block': !(open) }" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+            <svg x-description="Icon when menu is open.Heroicon name: outline/x" x-state:on="Menu open" x-state:off="Menu closed" class="hidden w-8 h-8" :class="{ 'block': open, 'hidden': !(open) }" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+          </button>
         </div>
+        <a href="/" class="text-lg font-bold">Ivan Minutillo</a>
+    </div>
+    <div class="flex-none hidden px-2 mx-2 lg:flex">
+      <div class="flex items-stretch space-x-3">
+        <a href="/#works" class="btn btn-ghost btn-sm rounded-btn">
+          Works
+        </a> 
+        <a href="/about" class="{{ 'bg-primary' if '/about' in page.url }} btn btn-ghost btn-sm rounded-btn">
+          About    
+        </a> 
+        <a href="/blog" class="{{ 'bg-primary' if '/blog' in page.url }} btn btn-ghost btn-sm rounded-btn">
+          Blog
+        </a> 
+        <a href="/contact" class="{{ 'bg-primary' if '/contact' in page.url }} btn btn-ghost btn-sm rounded-btn">
+          Contact    
+        </a>
+      </div>
+
+    </div> 
+  
 
         <!--Toggle button (hidden on large screens)-->
         <!-- <button @click="isOpen = !isOpen" type="button" class="ml-auto block lg:hidden px-2 text-primary-500 hover:text-primary-500 focus:outline-none focus:text-primary-500" :class="{ 'transition transform-180': isOpen }" aria-label="Menu">
@@ -28,5 +57,23 @@
 
             {% endif %}
         </div> -->
+
     </nav>
+        <div x-description="Mobile menu, show/hide based on menu state." class="sm:hidden" id="mobile-menu" x-show="open" style="display: none;">
+        <div class="px-2 pt-2 pb-3 space-y-1 bg-base-100">
+          
+          <a href="/#work" class="flex items-center hover:bg-primary rounded py-4 px-3 cursor-pointer space-x-2 text-base-content text-opacity-80">
+            <span class="text-base font-medium">Work</span>
+          </a>
+          <a href="/about" class="{{ 'bg-primary' if '/about' in page.url }} flex items-center hover:bg-primary rounded py-4 px-3 cursor-pointer space-x-2 text-base-content text-opacity-80">
+            <span class="text-base font-medium">About</span>
+          </a>
+          <a href="/blog" class="{{ 'bg-primary' if '/blog' in page.url }} flex items-center hover:bg-primary rounded py-4 px-3 cursor-pointer space-x-2 text-base-content text-opacity-80">
+            <span class="text-base font-medium">Blog</span>
+          </a>
+          <a href="/contact" class="{{ 'bg-primary' if '/contact' in page.url }} flex items-center hover:bg-primary rounded py-2 px-3 cursor-pointer space-x-2 text-base-content text-opacity-80">
+            <span class="text-base font-medium">Contact</span>
+          </a>
+        </div>
+      </div>
 </div>

@@ -2,12 +2,48 @@
 layout: blog
 ---
 
+
+
+<section class="mt-6 lg:px-0">
+  {% set postslist = collections.post %}
+  {% for post in postslist | reverse %}
+    <article class="my-16 lg:my-8 lg:flex lg:space-x-6">
+      <div class="w-full h-60 lg:w-32 lg:h-32 bg-blueGray-400 rounded bg-cover bg-no-repeat bg-center shadow-xl" style="background-image: url({{ post.data.image }})"></div>
+      <div class="flex-1 mt-4 lg:mt-0">
+        <h2 class="font-bold text-2xl text-blueGray-200 hover:text-blueGray-200 hover:underline mb-2">
+            <a href="{{ post.url | url }}">
+                {% if post.data.title %}
+                    {{ post.data.title }}
+                {% else %}
+                    Untitled
+                {% endif %}
+            </a>
+        </h2>
+        <span class="inline-flex mb-2 items-center px-3 py-0.5 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+          <time>{{ post.date | readableDate }}</time>
+        </span>
+        {% if post.data.description %}
+            <p class="text-base text-blueGray-300 mb-3">
+                {{ post.data.description }}
+            </p>
+        {% endif %}
+        <p>
+            <a href="{{ post.url | url }}" class="text-pink-400 font-bold text-lg">
+                Read more →
+            </a>
+        </p>
+      </div>
+    </article>
+  {% endfor %}
+</section>
+
+{# 
 <section class="mt-15">
     {% set postslist = collections.post %}
     
     {% for post in postslist | reverse %}
         <article class="my-8">
-            <h2 class="font-bold text-3xl text-gray-900 mb-2">
+            <h2 class="font-bold text-2xl text-base-content mb-2">
                 <a href="{{ post.url | url }}">
                     {% if post.data.title %}
                         {{ post.data.title }}
@@ -16,26 +52,23 @@ layout: blog
                     {% endif %}
                 </a>
             </h2>
-            <p class="text-base leading-6 text-gray-500 mb-3">
+            <p class="text-base leading-6 text-base-content text-opacity-60 mb-2">
                 <time>
                     {{ post.date | readableDate }}
-                    by
-                    <a>{{ post.data.author }}</a>
-
                 </time>
             </p>
             {% if post.data.description %}
-                <p class="text-lg text-gray-500 mb-3">
+                <p class="text-base text-base-content text-opacity-80 mb-3">
                     {{ post.data.description }}
                 </p>
             {% endif %}
 
             <p>
-                <a href="{{ post.url | url }}" class="text-indigo-500 font-bold text-lg">
+                <a href="{{ post.url | url }}" class="text-primary font-bold text-lg">
                     Read more →
                 </a>
             </p>
 
         </article>
     {% endfor %}
-</section>
+</section> #}

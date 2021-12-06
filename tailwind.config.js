@@ -15,7 +15,10 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [require("@tailwindcss/typography")],
+  plugins: [
+    require("@tailwindcss/typography"),
+    require('daisyui')
+  ],
   experimental: "all",
   future: {
     purgeLayersByDefault: true,
