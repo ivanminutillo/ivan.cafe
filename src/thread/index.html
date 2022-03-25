@@ -1,0 +1,852 @@
+---
+title: Thread example
+layout: default
+---
+
+ <div title="Change Theme" class="absolute left-3 top-3 w-48 dropdown dropdown-end">
+  <div tabindex="0" class="normal-case btn-outline btn btn-small"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current md:mr-2"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path></svg> 
+    <span class="hidden md:inline">Change Theme</span> 
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1792 1792" class="inline-block w-4 h-4 ml-1 fill-current"><path d="M1395 736q0 13-10 23l-466 466q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l393 393 393-393q10-10 23-10t23 10l50 50q10 10 10 23z"></path></svg></div> <div class="mt-16 overflow-y-auto shadow-2xl top-px dropdown-content h-96 w-52 rounded-b-box bg-base-200 text-base-content"><ul class="p-4 menu compact"><li><a tabindex="0" data-set-theme="light" data-act-class="active">🌝  light</a></li><li><a tabindex="0" data-set-theme="dark" data-act-class="active">🌚  dark</a></li><li><a tabindex="0" data-set-theme="cupcake" data-act-class="active">🧁  cupcake</a></li><li><a tabindex="0" data-set-theme="bumblebee" data-act-class="active">🐝  bumblebee</a></li><li><a tabindex="0" data-set-theme="emerald" data-act-class="active">✳️  Emerald</a></li><li><a tabindex="0" data-set-theme="corporate" data-act-class="active">🏢  Corporate</a></li><li><a tabindex="0" data-set-theme="synthwave" data-act-class="active">🌃  synthwave</a></li><li><a tabindex="0" data-set-theme="retro" data-act-class="active">👴  retro</a></li><li><a tabindex="0" data-set-theme="cyberpunk" data-act-class="active">🤖  cyberpunk</a></li><li><a tabindex="0" data-set-theme="valentine" data-act-class="active">🌸  valentine</a></li><li><a tabindex="0" data-set-theme="halloween" data-act-class="active">🎃  halloween</a></li><li><a tabindex="0" data-set-theme="garden" data-act-class="active">🌷  garden</a></li><li><a tabindex="0" data-set-theme="forest" data-act-class="active">🌲  forest</a></li><li><a tabindex="0" data-set-theme="aqua" data-act-class="active">🐟  aqua</a></li><li><a tabindex="0" data-set-theme="lofi" data-act-class="active">👓  lofi</a></li><li><a tabindex="0" data-set-theme="pastel" data-act-class="active">🖍  pastel</a></li><li><a tabindex="0" data-set-theme="fantasy" data-act-class="active">🧚&zwj;♀️  fantasy</a></li><li><a tabindex="0" data-set-theme="wireframe" data-act-class="active">📝  Wireframe</a></li><li><a tabindex="0" data-set-theme="black" data-act-class="active">🏴  black</a></li><li><a tabindex="0" data-set-theme="luxury" data-act-class="active">💎  luxury</a></li><li><a tabindex="0" data-set-theme="dracula" data-act-class="active">🧛&zwj;♂️  dracula</a></li><li><a tabindex="0" data-set-theme="cmyk" data-act-class="active">🖨  CMYK</a></li></ul></div>
+  </div>
+  <div style="max-width: 600px" class="flex-grow mx-auto">
+    <main class="md:flex flex-col md:mx-0 pb-4">
+      <section class="w-full mx-auto  mt-2 rounded shadow bg-base-100">
+      
+        <div role="banner" class="relative z-30 border-b border-base-300">
+          <div class="relative z-50 rounded rounded-b-none bg-base-100">
+            <div class="flex items-center p-3">
+              <div class="flex items-center flex-1 space-x-2 text-left">
+                <a aria-label="Navigate to the previous page" href="javascript:window.history.back()">
+                  <span class="btn btn-circle btn-outline btn-xs md:btn-sm">
+                    <svg class="w-4 h-4 stroke-current" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                    </svg>
+                  </span>
+                </a>
+                <div class="text-sm uppercase font-regular">Discussion</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="activity p-3">
+          <div class="flex items-center">
+            <div class="avatar">
+              <div class="w-12 h-12 bg-base-300 mask mask-squircle">
+                <img class="subject_avatar" src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2011/5/28/1306600809519/Gil-Scott-Heron-007.jpg?width=620&quality=45&auto=format&fit=max&dpr=2&s=dd35493e65a8b90c9bec0726dee54f6b" onerror="this.style.background='#dadada'">
+              </div>
+            </div>
+            <div class="flex items-center justify-between flex-1 ml-2">
+              <div class="flex flex-col text-md">
+                <a data-id="subject_name" class="font-semibold text-base-content hover:underline" data-phx-link="redirect" data-phx-link-state="push" href="/character/ivan">
+                  gill scot heron
+                </a>
+                <span class="text-sm text-base-content text-opacity-60 subject_username font-light">@gilscot@bonfire.cafe</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-2 showing_within:feed" x-data="{content_open: false}">
+            <div data-id="object_body" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="prose object_body max-w-prose">
+              <p>A Love Supreme is an album by American jazz saxophonist John Coltrane. He recorded it in one session on December 9, 1964, at Van Gelder Studio in Englewood Cliffs, New Jersey, leading a quartet featuring pianist McCoy Tyner, bassist Jimmy Garrison, and drummer Elvin Jones.</p>
+              <p>A Love Supreme was released by Impulse! Records in January 1965. One of Coltrane's bestselling albums, it is widely considered his masterpiece.</p>
+            </div>
+          </div>
+
+          <div>
+            <div class="flex items-center space-x-8 mt-3">
+              <div class="rounded py-2 flex cursor-pointer items-center space-x-2">
+                <span class="flex place-content-center items-center rounded-full">
+                  <svg class="w-4 h-4" stroke="currentColor" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                  </svg>
+                </span>
+                <span class="text-xs font-light text-base-content text-opacity-80 ">
+                  Reply 
+                </span>
+              </div>
+              <button data-id="boost_action" class="rounded py-2 flex cursor-pointer items-center space-x-2 boost">
+                <span class="flex place-content-center items-center rounded-full">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+                  </svg>
+                </span>
+                <span class="text-xs font-light text-base-content text-opacity-80 ">
+                  Boost 
+                </span>
+              </button>
+              <button data-id="like_action"  class="like rounded py-2 flex cursor-pointer items-center space-x-2 like_with_label">
+                <span class="flex place-content-center items-center rounded-full">
+                  <svg class="w-4 h-4" stroke="currentColor" fill="none" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                  </svg>
+                </span>
+                <span class="text-xs font-light text-base-content text-opacity-80 ">
+                  Like 
+                </span>
+              </button>
+              <div x-data="{modal_flagging_activity: false}" aria-haspopup="true" class="dropdown dropdown-end feed_activity">
+                <div tabindex="0" class="rounded py-2 flex cursor-pointer items-center space-x-2">
+                  <span class="flex place-content-center items-center rounded-full">
+                    <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                      <path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path>
+                    </svg>
+                  </span>
+                  <span id="more-menu" class="text-xs font-light text-base-content text-opacity-80 ">More</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div 
+            x-cloak 
+            x-data="{
+              open_participants: false, 
+              open_likes: false,
+              open_boosts: false
+            }" >
+            <div class="border-t pt-2 my-3 border-base-300 flex items-start space-x-4">
+              <div 
+                :class="open_participants ? 'bg-primary' : ''"
+                @click="open_participants = ! open_participants" 
+                class="flex w-auto items-center space-x-1 px-1.5 py-1 hover:bg-primary rounded cursor-pointer transition-colors hover:bg-opacity-60">
+                <span
+                  :class="open_participants ? 'text-primary-content' : ''" 
+                  class="font-bold text-xs text-base-content">4</span>
+                <div
+                  :class="open_participants ? 'text-primary-content' : ''"  
+                  class="font-light text-xs text-base-content text-opacity-80">Participants</div>
+              </div>
+              <div 
+                :class="open_likes ? 'bg-primary' : ''"
+                @click="open_likes = ! open_likes" 
+                class="flex w-auto items-center space-x-1 px-1.5 py-1 hover:bg-primary rounded cursor-pointer transition-colors hover:bg-opacity-60">
+                <span 
+                  :class="open_likes ? 'text-primary-content' : ''" 
+                  class="font-bold text-xs text-base-content">15</span>
+                <div 
+                  :class="open_likes ? 'text-primary-content' : ''" 
+                  class="font-light text-xs text-base-content text-opacity-80">Likes</div>
+              </div>
+              <div 
+                :class="open_boosts ? 'bg-primary' : ''"
+                @click="open_boosts = ! open_boosts" 
+                class="flex w-auto items-center space-x-1 px-1.5 py-1 hover:bg-primary rounded cursor-pointer transition-colors hover:bg-opacity-60">
+                <span 
+                  :class="open_boosts ? 'text-primary-content' : ''" 
+                  class="font-bold text-xs text-base-content">7</span>
+                <div
+                  :class="open_boosts ? 'text-primary-content' : ''"  
+                  class="font-light text-xs text-base-content text-opacity-80">Boosts</div>
+              </div>
+              
+              <div class="flex items-center space-x-1 px-1.5 py-1 hover:bg-primary rounded cursor-pointer transition-colors hover:bg-opacity-60"><span class="font-bold text-xs text-base-content">17</span><div class="font-light text-xs text-base-content text-opacity-80">Links</div></div>
+            </div>
+            <div x-show="open_participants" @click.outside="open_participants = false">
+              <div class="-space-x-4 avatar-group">
+                <div class="avatar">
+                  <div class="w-8 h-8">
+                    <img src="http://daisyui.com/tailwind-css-component-profile-1@40w.png">
+                  </div>
+                </div> 
+                <div class="avatar">
+                  <div class="w-8 h-8">
+                    <img src="http://daisyui.com/tailwind-css-component-profile-2@40w.png">
+                  </div>
+                </div> 
+                <div class="avatar">
+                  <div class="w-8 h-8">
+                    <img src="http://daisyui.com/tailwind-css-component-profile-3@40w.png">
+                  </div>
+                </div> 
+                <div class="avatar">
+                  <div class="w-8 h-8">
+                    <img src="http://daisyui.com/tailwind-css-component-profile-5@40w.png">
+                  </div>
+                </div> 
+              </div>
+            </div>
+            <div x-show="open_likes" @click.outside="open_likes = false">
+              <div class="-space-x-4 avatar-group">
+                <div class="avatar">
+                  <div class="w-8 h-8">
+                    <img src="http://daisyui.com/tailwind-css-component-profile-2@40w.png">
+                  </div>
+                </div> 
+                <div class="avatar">
+                  <div class="w-8 h-8">
+                    <img src="http://daisyui.com/tailwind-css-component-profile-3@40w.png">
+                  </div>
+                </div> 
+                <div class="avatar">
+                  <div class="w-8 h-8">
+                    <img src="http://daisyui.com/tailwind-css-component-profile-5@40w.png">
+                  </div>
+                </div> 
+                <div class="avatar">
+                  <div class="w-8 h-8">
+                    <img src="http://daisyui.com/tailwind-css-component-profile-1@40w.png">
+                  </div>
+                </div> 
+                <div class="avatar">
+                  <div class="w-8 h-8">
+                    <img src="http://daisyui.com/tailwind-css-component-profile-2@40w.png">
+                  </div>
+                </div> 
+                <div class="avatar">
+                  <div class="w-8 h-8">
+                    <img src="http://daisyui.com/tailwind-css-component-profile-3@40w.png">
+                  </div>
+                </div> 
+                <div class="avatar">
+                  <div class="w-8 h-8">
+                    <img src="http://daisyui.com/tailwind-css-component-profile-5@40w.png">
+                  </div>
+                </div> 
+                <div class="avatar">
+                  <div class="w-8 h-8">
+                    <img src="http://daisyui.com/tailwind-css-component-profile-1@40w.png">
+                  </div>
+                </div> 
+                <div class="avatar">
+                  <div class="w-8 h-8">
+                    <img src="http://daisyui.com/tailwind-css-component-profile-2@40w.png">
+                  </div>
+                </div> 
+                <div class="avatar">
+                  <div class="w-8 h-8">
+                    <img src="http://daisyui.com/tailwind-css-component-profile-3@40w.png">
+                  </div>
+                </div> 
+                <div class="avatar">
+                  <div class="w-8 h-8">
+                    <img src="http://daisyui.com/tailwind-css-component-profile-5@40w.png">
+                  </div>
+                </div> 
+              </div>
+            </div>
+            <div x-show="open_boosts" @click.outside="open_boosts = false">
+              <div class="-space-x-4 avatar-group">
+                <div class="avatar">
+                  <div class="w-8 h-8">
+                    <img src="http://daisyui.com/tailwind-css-component-profile-1@40w.png">
+                  </div>
+                </div> 
+                <div class="avatar">
+                  <div class="w-8 h-8">
+                    <img src="http://daisyui.com/tailwind-css-component-profile-2@40w.png">
+                  </div>
+                </div> 
+                <div class="avatar">
+                  <div class="w-8 h-8">
+                    <img src="http://daisyui.com/tailwind-css-component-profile-3@40w.png">
+                  </div>
+                </div> 
+                <div class="avatar">
+                  <div class="w-8 h-8">
+                    <img src="http://daisyui.com/tailwind-css-component-profile-5@40w.png">
+                  </div>
+                </div> 
+                <div class="avatar">
+                  <div class="w-8 h-8">
+                    <img src="http://daisyui.com/tailwind-css-component-profile-1@40w.png">
+                  </div>
+                </div> 
+                <div class="avatar">
+                  <div class="w-8 h-8">
+                    <img src="http://daisyui.com/tailwind-css-component-profile-2@40w.png">
+                  </div>
+                </div> 
+                <div class="avatar">
+                  <div class="w-8 h-8">
+                    <img src="http://daisyui.com/tailwind-css-component-profile-3@40w.png">
+                  </div>
+                </div> 
+                <div class="avatar">
+                  <div class="w-8 h-8">
+                    <img src="http://daisyui.com/tailwind-css-component-profile-5@40w.png">
+                  </div>
+                </div> 
+              </div>
+            </div>
+          </div>
+           
+        </div>
+      </section>
+
+
+      <div id="comment_1" class="activity p-3 rounded mt-3 bg-base-100 shadow">
+        <div class="flex items-top">
+          <div class="avatar">
+            <div class="w-8 h-8 bg-base-300 mask mask-squircle">
+              <img class="subject_avatar" src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2011/5/28/1306600809519/Gil-Scott-Heron-007.jpg?width=620&quality=45&auto=format&fit=max&dpr=2&s=dd35493e65a8b90c9bec0726dee54f6b" onerror="this.style.background='#dadada'">
+            </div>
+          </div>
+          <div class="ml-2">
+            <div class="flex items-center justify-between flex-1">
+              <div class="flex items-baseline text-md">
+                <a data-id="subject_name" class="font-semibold text-base-content hover:underline" href="#">
+                  gill scot heron
+                </a>
+                <span class="text-xs ml-1 text-base-content text-opacity-60 subject_username font-light">· 10min ago · <a class="link-hover link" href="#">#1</a></span>
+              </div>
+            </div>
+            <div class="prose mt-1 text-sm">
+              A Love Supreme is an album by American jazz saxophonist John Coltrane. He recorded it in one session on December 9, 1964, at Van Gelder Studio in Englewood Cliffs.
+            </div>
+            <div class="flex items-center space-x-8 mt-3">
+              <div class="flex cursor-pointer text-content-primary text-opacity-80 items-center space-x-2 group hover:text-primary hover:text-opacity-100">
+                <span class="flex place-content-center items-center rounded-full">
+                  <svg class="w-4 h-4" stroke="currentColor" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                  </svg>
+                </span>
+                <span class="text-xs font-light  ">
+                  Reply 
+                </span>
+              </div>
+              <button class="flex cursor-pointer text-content-primary text-opacity-80 items-center space-x-2 group hover:text-primary hover:text-opacity-100">
+                <span class="flex place-content-center items-center rounded-full">
+                  <svg fill="currentColor" class="w-4 h-4" stroke="none" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8 5a1 1 0 100 2h5.586l-1.293 1.293a1 1 0 001.414 1.414l3-3a1 1 0 000-1.414l-3-3a1 1 0 10-1.414 1.414L13.586 5H8zM12 15a1 1 0 100-2H6.414l1.293-1.293a1 1 0 10-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L6.414 15H12z"></path>
+                  </svg>
+                </span>
+                <span class="text-xs font-light">
+                  Boost 
+                </span>
+              </button>
+              <button class="flex cursor-pointer text-content-primary text-opacity-80 items-center space-x-2 group hover:text-primary hover:text-opacity-100">
+                <span class="flex place-content-center items-center rounded-full">
+                  <svg class="w-4 h-4" stroke="currentColor" fill="none" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                  </svg>
+                </span>
+                <span class="text-xs font-light">
+                  Like 
+                </span>
+              </button>
+              <div x-data="{modal_flagging_activity: false}" aria-haspopup="true" class="dropdown dropdown-end feed_activity">
+                <div tabindex="0" class="flex cursor-pointer text-content-primary text-opacity-80 items-center space-x-2 group hover:text-primary hover:text-opacity-100">
+                  <span class="flex place-content-center items-center rounded-full">
+                    <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                      <path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path>
+                    </svg>
+                  </span>
+                  <span id="more-menu" class="text-xs font-light">More</span>
+                </div>
+              </div>
+            </div>
+
+            <div 
+              x-cloak 
+              x-data="{
+                open_replies: false, 
+                open_likes: false,
+                open_boosts: false
+              }" >
+              <div class="border-t pt-2 mt-4 border-base-300 flex items-center space-x-4">
+                <div 
+                :class="open_replies ? 'bg-primary' : ''"
+                @click="open_replies = ! open_replies" 
+                class="flex w-auto items-center space-x-1 px-1.5 py-1 hover:bg-primary rounded cursor-pointer transition-colors hover:bg-opacity-60">
+                  <span 
+                    :class="open_replies ? 'text-primary-content' : ''" 
+                    class="font-bold text-xs text-base-content">1</span>
+                  <div 
+                    :class="open_replies ? 'text-primary-content' : ''" 
+                    class="font-light text-xs text-base-content text-opacity-80">Replies
+                  </div>
+                </div>
+              </div>
+              <div 
+                class="flex flex-col space-y-1 mt-2"
+                x-show="open_replies" 
+                @click.outside="open_replies = false">
+                  <div class="border rounded border-base-300 p-3">
+                    <div class="flex items-center justify-between flex-1">
+                      <div class="flex items-baseline flex-1 text-md">
+                        <a data-id="subject_name" class="font-semibold text-sm text-base-content hover:underline" href="#">
+                          Keith Jarrett
+                        </a>
+                        <span class="text-xs ml-1 text-base-content text-opacity-60 subject_username font-light">· 10min ago · <a class="link-hover link" href="#comment_4">#4</a></span>
+                      </div>
+                      <a href="#comment_4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-base-content text-opacity-70 cursor-pointer hover:text-primary transform transition-colors" viewBox="0 0 20 20" fill="currentColor">
+                          <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+                          <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd" />
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="prose text-sm mt-1">A Love Supreme is an album by American jazz saxophonist John Coltrane. He recorded it in one session on December 9, 1964, at Van Gelder Studio in Englewood Cliffs.</div>
+                  </div> 
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <div id="comment_2" class="activity p-3 rounded mt-3 bg-base-100 shadow">
+        <div class="flex items-top">
+          <div class="avatar">
+            <div class="w-8 h-8 bg-base-300 mask mask-squircle">
+              <img class="subject_avatar" src="data:image/jpeg;base64,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" onerror="this.style.background='#dadada'">
+            </div>
+          </div>
+          <div class="ml-2">
+            <div class="flex items-center justify-between flex-1">
+              <div class="flex items-baseline text-md">
+                <a data-id="subject_name" class="font-semibold text-base-content hover:underline" href="#">
+                  Miles Davis
+                </a>
+                <span class="text-xs ml-1 text-base-content text-opacity-60 subject_username font-light">· 10min ago · <a class="link-hover link" href="#">#2</a></span>
+              </div>
+            </div>
+            <div class="prose mt-1 text-sm">
+              A Love Supreme is an album by American jazz saxophonist John Coltrane. He recorded it in one session on December 9, 1964, at Van Gelder Studio in Englewood Cliffs.
+            </div>
+              <div class="flex items-center space-x-8 mt-3">
+                <div class="flex cursor-pointer text-content-primary text-opacity-80 items-center space-x-2 group hover:text-primary hover:text-opacity-100">
+                  <span class="flex place-content-center items-center rounded-full">
+                    <svg class="w-4 h-4" stroke="currentColor" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                    </svg>
+                  </span>
+                  <span class="text-xs font-light  ">
+                    Reply 
+                  </span>
+                </div>
+                <button class="flex cursor-pointer text-content-primary text-opacity-80 items-center space-x-2 group hover:text-primary hover:text-opacity-100">
+                  <span class="flex place-content-center items-center rounded-full">
+                    <svg fill="currentColor" class="w-4 h-4" stroke="none" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 5a1 1 0 100 2h5.586l-1.293 1.293a1 1 0 001.414 1.414l3-3a1 1 0 000-1.414l-3-3a1 1 0 10-1.414 1.414L13.586 5H8zM12 15a1 1 0 100-2H6.414l1.293-1.293a1 1 0 10-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L6.414 15H12z"></path>
+                    </svg>
+                  </span>
+                  <span class="text-xs font-light">
+                    Boost 
+                  </span>
+                </button>
+                <button <div class="flex cursor-pointer text-content-primary text-opacity-80 items-center space-x-2 group hover:text-primary hover:text-opacity-100">
+                  <span class="flex place-content-center items-center rounded-full">
+                    <svg class="w-4 h-4" stroke="currentColor" fill="none" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                    </svg>
+                  </span>
+                  <span class="text-xs font-light">
+                    Like 
+                  </span>
+                </button>
+                <div x-data="{modal_flagging_activity: false}" aria-haspopup="true" class="dropdown dropdown-end feed_activity">
+                  <div tabindex="0" class="flex cursor-pointer text-content-primary text-opacity-80 items-center space-x-2 group hover:text-primary hover:text-opacity-100">
+                    <span class="flex place-content-center items-center rounded-full">
+                      <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path>
+                      </svg>
+                    </span>
+                    <span id="more-menu" class="text-xs font-light">More</span>
+                  </div>
+                </div>
+             </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="comment_3" class="activity p-3 rounded mt-3 bg-base-100 shadow">
+        <div class="flex items-top">
+          <div class="avatar">
+            <div class="w-8 h-8 bg-base-300 mask mask-squircle">
+              <img class="subject_avatar" src="data:image/jpeg;base64,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" onerror="this.style.background='#dadada'">
+            </div>
+          </div>
+          <div class="ml-2">
+            <div class="flex items-center justify-between flex-1">
+              <div class="flex items-baseline text-md">
+                <a data-id="subject_name" class="font-semibold text-base-content hover:underline" href="#">
+                  John Coltrane
+                </a>
+                <span class="text-xs ml-1 text-base-content text-opacity-60 subject_username font-light">· 10min ago · <a class="link-hover link" href="#">#3</a></span>
+              </div>
+            </div>
+            <div class="prose mt-1 text-sm">
+              A Love Supreme is an album by American jazz saxophonist John Coltrane. He recorded it in one session on December 9, 1964, at Van Gelder Studio in Englewood Cliffs.
+            </div>
+              <div class="flex items-center space-x-8 mt-3">
+                <div class="flex cursor-pointer text-content-primary text-opacity-80 items-center space-x-2 group hover:text-primary hover:text-opacity-100">
+                  <span class="flex place-content-center items-center rounded-full">
+                    <svg class="w-4 h-4" stroke="currentColor" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                    </svg>
+                  </span>
+                  <span class="text-xs font-light  ">
+                    Reply 
+                  </span>
+                </div>
+                <button class="flex cursor-pointer text-content-primary text-opacity-80 items-center space-x-2 group hover:text-primary hover:text-opacity-100">
+                  <span class="flex place-content-center items-center rounded-full">
+                    <svg fill="currentColor" class="w-4 h-4" stroke="none" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 5a1 1 0 100 2h5.586l-1.293 1.293a1 1 0 001.414 1.414l3-3a1 1 0 000-1.414l-3-3a1 1 0 10-1.414 1.414L13.586 5H8zM12 15a1 1 0 100-2H6.414l1.293-1.293a1 1 0 10-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L6.414 15H12z"></path>
+                    </svg>
+                  </span>
+                  <span class="text-xs font-light">
+                    Boost 
+                  </span>
+                </button>
+                <button <div class="flex cursor-pointer text-content-primary text-opacity-80 items-center space-x-2 group hover:text-primary hover:text-opacity-100">
+                  <span class="flex place-content-center items-center rounded-full">
+                    <svg class="w-4 h-4" stroke="currentColor" fill="none" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                    </svg>
+                  </span>
+                  <span class="text-xs font-light">
+                    Like 
+                  </span>
+                </button>
+                <div x-data="{modal_flagging_activity: false}" aria-haspopup="true" class="dropdown dropdown-end feed_activity">
+                  <div tabindex="0" class="flex cursor-pointer text-content-primary text-opacity-80 items-center space-x-2 group hover:text-primary hover:text-opacity-100">
+                    <span class="flex place-content-center items-center rounded-full">
+                      <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path>
+                      </svg>
+                    </span>
+                    <span id="more-menu" class="text-xs font-light">More</span>
+                  </div>
+                </div>
+             </div>
+             <div 
+              x-cloak 
+              x-data="{
+                open_replies: false, 
+                open_likes: false,
+                open_boosts: false
+              }" >
+              <div class="border-t pt-2 mt-4 border-base-300 flex items-center space-x-4">
+                <div 
+                  :class="open_replies ? 'bg-primary' : ''"
+                  @click="open_replies = ! open_replies" 
+                  class="flex w-auto items-center space-x-1 px-1.5 py-1 hover:bg-primary rounded cursor-pointer transition-colors hover:bg-opacity-60">
+                  <span 
+                    :class="open_replies ? 'text-primary-content' : ''" 
+                    class="font-bold text-xs text-base-content">2</span>
+                  <div 
+                    :class="open_replies ? 'text-primary-content' : ''" 
+                    class="font-light text-xs text-base-content text-opacity-80">Replies
+                  </div>
+                </div>
+                <div 
+                  :class="open_likes ? 'bg-primary' : ''"
+                  @click="open_likes = ! open_likes" 
+                  class="flex w-auto items-center space-x-1 px-1.5 py-1 hover:bg-primary rounded cursor-pointer transition-colors hover:bg-opacity-60">
+                  <span 
+                    :class="open_likes ? 'text-primary-content' : ''" 
+                    class="font-bold text-xs text-base-content">6</span>
+                  <div 
+                    :class="open_likes ? 'text-primary-content' : ''" 
+                    class="font-light text-xs text-base-content text-opacity-80">Likes</div>
+                </div>
+                <div 
+                  :class="open_boosts ? 'bg-primary' : ''"
+                  @click="open_boosts = ! open_boosts" 
+                  class="flex w-auto items-center space-x-1 px-1.5 py-1 hover:bg-primary rounded cursor-pointer transition-colors hover:bg-opacity-60">
+                  <span 
+                    :class="open_boosts ? 'text-primary-content' : ''" 
+                    class="font-bold text-xs text-base-content">1</span>
+                  <div 
+                    :class="open_boosts ? 'text-primary-content' : ''" 
+                    class="font-light text-xs text-base-content text-opacity-80">Boosts
+                  </div>
+                </div>
+              </div>
+              <div 
+                class="flex flex-col space-y-1 mt-2"
+                x-show="open_replies" 
+                @click.outside="open_replies = false">
+                <div class="border rounded border-base-300 p-3">
+                  <div class="flex items-center justify-between flex-1">
+                    <div class="flex items-baseline flex-1 text-md">
+                      <a data-id="subject_name" class="font-semibold text-sm text-base-content hover:underline" href="#">
+                        Keith Jarrett
+                      </a>
+                      <span class="text-xs ml-1 text-base-content text-opacity-60 subject_username font-light">· 10min ago · <a class="link-hover link" href="#comment_4">#4</a></span>
+                    </div>
+                    <a href="#comment_4">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-base-content text-opacity-70 cursor-pointer hover:text-primary transform transition-colors" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+                        <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd" />
+                      </svg>
+                    </a>
+                  </div>
+                  <div class="prose text-sm mt-1">A Love Supreme is an album by American jazz saxophonist John Coltrane. He recorded it in one session on December 9, 1964, at Van Gelder Studio in Englewood Cliffs.</div>
+                </div> 
+                <div class="border rounded border-base-300 p-3">
+                  <div class="flex items-center justify-between flex-1">
+                    <div class="flex items-baseline flex-1 text-md">
+                      <a data-id="subject_name" class="font-semibold text-sm text-base-content hover:underline" href="#">
+                        Gil Scott Heron
+                      </a>
+                      <span class="text-xs ml-1 text-base-content text-opacity-60 subject_username font-light">· 10min ago · <a class="link-hover link" href="#comment_5">#5</a></span>
+                    </div>
+                    <a href="#comment_5">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-base-content text-opacity-70 cursor-pointer hover:text-primary transform transition-colors" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+                        <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd" />
+                      </svg>
+                    </a>
+                  </div>
+                  <div class="prose text-sm mt-1">A Love Supreme is an album by American jazz saxophonist John Coltrane. He recorded it in one session on December 9, 1964, at Van Gelder Studio in Englewood Cliffs.</div>
+                </div> 
+              </div>
+              <div class="mt-1" x-show="open_likes" @click.outside="open_likes = false">
+                <div class="-space-x-3 avatar-group">
+                  <div class="avatar">
+                    <div class="w-6 h-6">
+                      <img src="http://daisyui.com/tailwind-css-component-profile-1@40w.png">
+                    </div>
+                  </div> 
+                  <div class="avatar">
+                    <div class="w-6 h-6">
+                      <img src="http://daisyui.com/tailwind-css-component-profile-2@40w.png">
+                    </div>
+                  </div> 
+                  <div class="avatar">
+                    <div class="w-6 h-6">
+                      <img src="http://daisyui.com/tailwind-css-component-profile-3@40w.png">
+                    </div>
+                  </div> 
+                  <div class="avatar">
+                    <div class="w-6 h-6">
+                      <img src="http://daisyui.com/tailwind-css-component-profile-5@40w.png">
+                    </div>
+                  </div> 
+                  <div class="avatar">
+                    <div class="w-6 h-6">
+                      <img src="http://daisyui.com/tailwind-css-component-profile-3@40w.png">
+                    </div>
+                  </div> 
+                  <div class="avatar">
+                    <div class="w-6 h-6">
+                      <img src="http://daisyui.com/tailwind-css-component-profile-5@40w.png">
+                    </div>
+                  </div> 
+                </div>
+              </div>
+              <div class="mt-1" x-show="open_boosts" @click.outside="open_boosts = false">
+                <div class="-space-x-4 avatar-group">
+                  <div class="avatar">
+                    <div class="w-6 h-6">
+                      <img src="http://daisyui.com/tailwind-css-component-profile-1@40w.png">
+                    </div>
+                  </div> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="comment_4" class="activity p-3 rounded mt-3 bg-base-100 shadow">
+        <div class="flex items-top">
+          <div class="avatar">
+            <div class="w-8 h-8 bg-base-300 mask mask-squircle">
+              <img class="subject_avatar" src="data:image/jpeg;base64,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" onerror="this.style.background='#dadada'">
+            </div>
+          </div>
+          <div class="ml-2">
+            <div class="flex items-center justify-between flex-1">
+              <div class="flex items-baseline text-md">
+                <a data-id="subject_name" class="font-semibold text-base-content hover:underline" href="#">
+                  Keith Jarrett
+                </a>
+                <span class="text-xs ml-1 text-base-content text-opacity-60 subject_username font-light">· 10min ago · <a class="link-hover link" href="#">#4</a></span>
+              </div>
+            </div>
+            <div class="prose mt-1 text-sm">
+              <div class="my-3 collapse w-full border rounded-md border-base-200 bg-base-300 bg-opacity-20  collapse-arrow">
+                <input type="checkbox"> 
+                <div class="collapse-title">
+                  <div>
+                    <div class="flex items-center justify-between flex-1">
+                      <div class="flex items-baseline text-md">
+                        <a data-id="subject_name" class="font-semibold text-base-content hover:underline" href="#">
+                          gill scot heron
+                        </a>
+                        <span class="text-xs ml-1 text-base-content text-opacity-60 subject_username font-light">· 10min ago · <a class="link-hover link" href="#">#1</a></span>
+                      </div>
+                    </div>
+                    <div class="prose text-sm mt-1">A Love Supreme is an album by American jazz saxophonist John Coltrane. He recorded it in one session on December 9, 1964, at Van Gelder Studio in Englewood Cliffs.</div>
+                  </div> 
+                </div>
+                <div class="collapse-content"> 
+                  <p>Collapse content reveals with focus. If you add a checkbox, you can control it using checkbox instead of focus. Or you can force-open/force-close using 
+                    <span class="badge badge-outline">collapse-open</span> and 
+                    <span class="badge badge-outline">collapse-close</span> classes.
+                  </p>
+                </div>
+              </div> 
+              A Love Supreme is an album by American jazz saxophonist John Coltrane. He recorded it in one session on December 9, 1964, at Van Gelder Studio in Englewood Cliffs.
+              <div class="my-3 collapse w-full border rounded-md border-base-200 bg-base-300 bg-opacity-20 collapse-arrow">
+                <input type="checkbox"> 
+                <div class="collapse-title">
+                  <div>
+                    <div class="flex items-center justify-between flex-1">
+                      <div class="flex items-baseline text-md">
+                        <a data-id="subject_name" class="font-semibold text-base-content hover:underline" href="#">
+                          John Coltrane
+                        </a>
+                        <span class="text-xs ml-1 text-base-content text-opacity-60 subject_username font-light">· 10min ago · <a class="link-hover link" href="#">#3</a></span>
+                      </div>
+                    </div>
+                    <div class="prose text-sm mt-1">A Love Supreme is an album by American jazz saxophonist John Coltrane. He recorded it in one session on December 9, 1964, at Van Gelder Studio in Englewood Cliffs.</div>
+                  </div> 
+                </div>
+                <div class="collapse-content"> 
+                  <p>Collapse content reveals with focus. If you add a checkbox, you can control it using checkbox instead of focus. Or you can force-open/force-close using 
+                    <span class="badge badge-outline">collapse-open</span> and 
+                    <span class="badge badge-outline">collapse-close</span> classes.
+                  </p>
+                </div>
+              </div> 
+              <p>
+              Test
+              </p>
+            </div>
+              <div class="flex items-center space-x-8 mt-1">
+                <div class="rounded py-2 flex cursor-pointer items-center space-x-2">
+                  <span class="flex place-content-center items-center rounded-full">
+                    <svg class="w-4 h-4" stroke="currentColor" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                    </svg>
+                  </span>
+                  <span class="text-xs font-light text-base-content text-opacity-80 ">
+                    Reply 
+                  </span>
+                </div>
+                <button id="01FQVN5V42MQ2HF5JZ51YJY45Y" data-id="boost_action" class="rounded py-2 flex cursor-pointer items-center space-x-2 boost" data-phx-component="1">
+                  <span class="flex place-content-center items-center rounded-full">
+                    <svg fill="currentColor" class="w-4 h-4" stroke="none" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 5a1 1 0 100 2h5.586l-1.293 1.293a1 1 0 001.414 1.414l3-3a1 1 0 000-1.414l-3-3a1 1 0 10-1.414 1.414L13.586 5H8zM12 15a1 1 0 100-2H6.414l1.293-1.293a1 1 0 10-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L6.414 15H12z"></path>
+                    </svg>
+                  </span>
+                  <span class="text-xs font-light text-base-content text-opacity-80 ">
+                    Boost 
+                  </span>
+                </button>
+                <button data-id="like_action"  class="like rounded py-2 flex cursor-pointer items-center space-x-2 like_with_label" data-phx-component="2">
+                  <span class="flex place-content-center items-center rounded-full">
+                    <svg class="w-4 h-4" stroke="currentColor" fill="none" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                    </svg>
+                  </span>
+                  <span class="text-xs font-light text-base-content text-opacity-80 ">
+                    Like 
+                  </span>
+                </button>
+                <div x-data="{modal_flagging_activity: false}" aria-haspopup="true" class="dropdown dropdown-end feed_activity">
+                  <div tabindex="0" class="rounded py-2 flex cursor-pointer items-center space-x-2">
+                    <span class="flex place-content-center items-center rounded-full">
+                      <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path>
+                      </svg>
+                    </span>
+                    <span id="more-menu" class="text-xs font-light text-base-content text-opacity-80 ">More</span>
+                  </div>
+                </div>
+             </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <div id="comment_5" class="activity p-3 rounded mt-3 bg-base-100 shadow">
+        <div class="flex items-top">
+          <div class="avatar">
+            <div class="w-8 h-8 bg-base-300 mask mask-squircle">
+              <img class="subject_avatar" src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2011/5/28/1306600809519/Gil-Scott-Heron-007.jpg?width=620&quality=45&auto=format&fit=max&dpr=2&s=dd35493e65a8b90c9bec0726dee54f6b" onerror="this.style.background='#dadada'">
+            </div>
+          </div>
+          <div class="ml-2">
+            <div class="flex items-center justify-between flex-1">
+              <div class="flex items-baseline text-md">
+                <a data-id="subject_name" class="font-semibold text-base-content hover:underline" href="#">
+                  gill scot heron
+                </a>
+                <span class="text-xs ml-1 text-base-content text-opacity-60 subject_username font-light">· 10min ago · <a class="link-hover link" href="#">#5</a></span>
+              </div>
+            </div>
+            <div class="prose mt-1 text-sm">
+            <div class="my-3 collapse w-full border rounded-md border-base-200 bg-base-300 bg-opacity-20  collapse-arrow">
+                <input type="checkbox"> 
+                <div class="collapse-title">
+                  <div>
+                    <div class="flex items-center justify-between flex-1">
+                      <div class="flex items-baseline text-md">
+                        <a data-id="subject_name" class="font-semibold text-base-content hover:underline" href="#">
+                          John Coltrane
+                        </a>
+                        <span class="text-xs ml-1 text-base-content text-opacity-60 subject_username font-light">· 10min ago · <a class="link-hover link" href="#">#3</a></span>
+                      </div>
+                    </div>
+                    <div class="prose text-sm mt-1">A Love Supreme is an album by American jazz saxophonist John Coltrane. He recorded it in one session on December 9, 1964, at Van Gelder Studio in Englewood Cliffs.</div>
+                  </div> 
+                </div>
+                <div class="collapse-content"> 
+                  <p>Collapse content reveals with focus. If you add a checkbox, you can control it using checkbox instead of focus. Or you can force-open/force-close using 
+                    <span class="badge badge-outline">collapse-open</span> and 
+                    <span class="badge badge-outline">collapse-close</span> classes.
+                  </p>
+                </div>
+              </div>
+              <p>A Love Supreme is an album by American jazz saxophonist John Coltrane. He recorded it in one session on December 9, 1964, at Van Gelder Studio in Englewood Cliffs.</p>
+            </div>
+              <div class="flex items-center space-x-8 mt-3">
+                <div class="flex cursor-pointer text-content-primary text-opacity-80 items-center space-x-2 group hover:text-primary hover:text-opacity-100">
+                  <span class="flex place-content-center items-center rounded-full">
+                    <svg class="w-4 h-4" stroke="currentColor" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                    </svg>
+                  </span>
+                  <span class="text-xs font-light  ">
+                    Reply 
+                  </span>
+                </div>
+                <button class="flex cursor-pointer text-content-primary text-opacity-80 items-center space-x-2 group hover:text-primary hover:text-opacity-100">
+                  <span class="flex place-content-center items-center rounded-full">
+                    <svg fill="currentColor" class="w-4 h-4" stroke="none" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 5a1 1 0 100 2h5.586l-1.293 1.293a1 1 0 001.414 1.414l3-3a1 1 0 000-1.414l-3-3a1 1 0 10-1.414 1.414L13.586 5H8zM12 15a1 1 0 100-2H6.414l1.293-1.293a1 1 0 10-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L6.414 15H12z"></path>
+                    </svg>
+                  </span>
+                  <span class="text-xs font-light">
+                    Boost 
+                  </span>
+                </button>
+                <button <div class="flex cursor-pointer text-content-primary text-opacity-80 items-center space-x-2 group hover:text-primary hover:text-opacity-100">
+                  <span class="flex place-content-center items-center rounded-full">
+                    <svg class="w-4 h-4" stroke="currentColor" fill="none" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                    </svg>
+                  </span>
+                  <span class="text-xs font-light">
+                    Like 
+                  </span>
+                </button>
+                <div x-data="{modal_flagging_activity: false}" aria-haspopup="true" class="dropdown dropdown-end feed_activity">
+                  <div tabindex="0" class="flex cursor-pointer text-content-primary text-opacity-80 items-center space-x-2 group hover:text-primary hover:text-opacity-100">
+                    <span class="flex place-content-center items-center rounded-full">
+                      <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path>
+                      </svg>
+                    </span>
+                    <span id="more-menu" class="text-xs font-light">More</span>
+                  </div>
+                </div>
+             </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+    </main>
+  </div>
