@@ -22,7 +22,7 @@
   "dependencies": {
     "autoprefixer": "^9.8.6",
     "daisyui": "^2.13.2",
-    "postcss": "^7.0.35",
+    "postcss": "^7.0.36",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^3.0.23"
   }
 }
