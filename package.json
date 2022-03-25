@@ -21,8 +21,8 @@
   },
   "dependencies": {
     "autoprefixer": "^9.8.6",
-    "daisyui": "^1.16.2",
+    "daisyui": "^2.13.2",
     "postcss": "^7.0.35",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^3.0.23"
   }
 }
