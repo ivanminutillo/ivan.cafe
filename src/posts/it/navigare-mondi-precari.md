@@ -32,7 +32,4 @@ Nuove domande e riflessioni mi stanno spingendo a ripensare il mio lavoro e le m
 - Nei mondi precari, i tempi di sviluppo, gestazione, incontri e decisioni non corrispondono ai tempi dei mondi stabili.
 - Come si misura la riuscita di un progetto nei mondi precari?
 - Quali sono degli strumenti utili a navigare la precarietà?
-- I tempi di gestazione dei conflitti e la creazione di alleanze seguono tempi e modalità estremamente differenti.
 - Nei mondi stabili, il progresso impone unicamente di andare avanti. Nei mondi precari tutte le direzioni sono esplorabili: tornare indietro, girare, cambiare direzione e ritornare a monte.
-
-Recentemente sto leggendo "L'alba di tutto" di Wengrow e Graeber. A fronte di scoperte di modi molto più flessibili e liquidi di organizzare società complesse nel tardo neolitico, una domanda che si pongono più volte gli autori e fa da filo conduttore ad alcuni capitoli del libro è: "Quando, come società, siamo diventati così rigidi?" Le società neolitiche sembrano essere stati degli abili navigatori di mondi precari, sarà interessante cominciare a praticare alleanze immaginarie con loro :)
