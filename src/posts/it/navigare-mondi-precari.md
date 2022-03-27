@@ -16,7 +16,7 @@ Quella parola: alleanza, non sembrava uscita a caso dalla bocca di Alekos, ma mi
 Una parola voluta, curata e salvata. Quell'idea risuonò fortissimo nel mio inconscio e da quel momento, continuai a coltivare anchio quella parola e i suoi significati nella mia vita.
 
 Poco dopo la fine del primo lockdown, intorno la metà del 2020, un'altra parola è entrata prepotentemente nella mia quotidianità, spinta dal lavoro e dalle idee di Anna Tsing: **precarietà**.
-Precarietà non intesa come l'eccezione all'ineluttabile stabilità garantita dal progresso del mondo moderno, ma bensì come *"vita senza la promessa di stabilità"*.
+Precarietà non intesa come l'eccezione all'ineluttabile stabilità garantita dal progresso del mondo moderno, ma come *"vita senza la promessa di stabilità"*.
 Nel pensiero di Anna Tsing, la precarietà non è entrata nelle nostre vite in un momento particolare, non è stato il covid, le torri gemelle o il cambiamento climatico. Noi siamo da sempre precari, Anna Tsing ci insegna a scoprire e navigare la precarietà nella sua complessità e anche nelle sue positive possibilità di vita tra le rovine del capitalismo.
 
 Da più di due anni ormai sto lavorando a Bonfire: un social network open source pensato per offrire ad individui e comunità uno strumento che possa essere facilmente plasmato secondo gli specifici e puntuali bisogni e le visioni di chi lo adotta (piuttosto che in accordo alle esigenze economiche dei fondatori / finanziatori).
