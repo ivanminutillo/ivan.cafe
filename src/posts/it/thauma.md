@@ -10,7 +10,8 @@ tags:
 
 Penso che lo scoprirci precari molto spesso avvenga in relazione all'essere venuti in contatto con un limite - personale o del mondo che ci circonda.
 
-In questi termini, scoprire di essere precari è come fare un reality-check,  in quel momento ti accorgi di toccare la vita cruda, che è sensibile, fragile e potente. Aristotele diceva che "la filosofia nasce da thauma". Quasi sempre questa parola viene tradotta con "meraviglia", "stupore" - Severino suggerisce invece di tradurla con il suo significato originario: "terrore", "angoscia". La filosofia nasce come risposta all'angoscia: della morte, del divenire delle cose, dei limiti.
+In questi termini, scoprire di essere precari è come fare un reality-check,  in quel momento ti accorgi di toccare la vita cruda, che è sensibile, fragile e potente. 
+Aristotele diceva che "la filosofia nasce da thauma". Quasi sempre questa parola viene tradotta con "meraviglia", "stupore" - Severino suggerisce invece di tradurla con il suo significato originario: "terrore", "angoscia". La filosofia nasce come risposta all'angoscia: della morte, del divenire delle cose, dei limiti.
 
 I limiti - di ogni singolo individuo e i limiti ecologici del mondo - ci sono stati nascosti dalla nostra cultura. 
 Ma noi umani siamo limitati: biologicamente, psicologicamente ed emotivamente - dunque, qualsiasi avvenimento che ci porta a riconoscere nuovamente i nostri limiti, ci aiuta anche a riscoprirci umani, terrestri. Un po più vivi.
@@ -21,7 +22,7 @@ La precarietà, per le sue caratteristiche di incertezza, non si può controllar
 
 Navigare la precarietà è un'arte, forse è un imparare a giocare sapientemente con i propri limiti, prestare profonda attenzione al mondo fuori e negoziare alleanze che possano aggiungere gradi di libertà (seppur piccolissimi) ai nostri limiti - piuttosto che imprigionarci in una finta stabilità.
 
-Parafrasando Virginia Wolf: Osservare, osservare dobbiamo.
+Parafrasando Virginia Woolf: Osservare, osservare dobbiamo.
 
 Osservare che non significa consumare con gli occhi, ma pensare con gli occhi.
 Penso che sia un'abilità, che da quando vivo in campagna mi sono reso conto di aver allenato molto poco nella mia vita.
