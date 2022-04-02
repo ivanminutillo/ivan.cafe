@@ -4,7 +4,9 @@ description: I recently spent some days studying the ethereum ecosystem. What tr
 date: 2021-06-23T15:13:13.021Z
 image: ../../../static/img/reflowjourney.jpeg
 tags:
-  - web3, defi, ethereum
+  - web3
+  - defi
+  - ethereum
 ---
 
 I recently spent some days studying the ethereum ecosystem. 

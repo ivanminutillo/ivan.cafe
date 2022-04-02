@@ -5,6 +5,10 @@ date: 2020-04-07T15:13:13.021Z
 image: ../../../static/img/reflowjourney.jpeg
 tags:
   - reflow
+  - economic-network
+  - valueflows
+  - bonfire
+  - circular-economy
 ---
 
 _At Dyne.org we are working on the design and development of REFLOW's technical architecture. We write this diary about the challenges, progress and techno-political issues we face._

@@ -4,8 +4,9 @@ description: Sinossi di Tracciare la rotta - Come orientarsi in politica di Brun
 date: 2020-09-23T15:13:13.021Z
 image: ../../../static/img/tracciarelarotta.jpg
 tags:
-  - latour
-  - sinossi
+  - bruno-latour
+  - book
+  - post-capitalism
 ---
 
 Più che un'analisi politica dello scenario contemporaneo, il libro "Tracciare la rotta" di Latour è un bellissimo lavoro autopoietico e generativo: un cercare di abitare la casa mentre la si costruisce mattone dopo mattone, disegnare la mappa mentre la si consulta o - per restare in tema con il libro - cercare di abitare un territorio, mentre se ne delimita confini, dipendenze e alleanze.

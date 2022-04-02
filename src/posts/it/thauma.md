@@ -4,8 +4,8 @@ description: Penso che lo scoprirci precari molto spesso avvenga in relazione al
 date: 2022-04-01
 image: ../../../static/img/thauma.jpeg
 tags:
-  - precarietà
-  - limiti
+  - precariety
+  - limits
 ---
 
 Penso che lo scoprirci precari molto spesso avvenga in relazione all'essere venuti in contatto con un limite - personale o del mondo che ci circonda.

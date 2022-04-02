@@ -4,8 +4,9 @@ description: Welcome to the year 2030. Welcome to my critical zone - or should I
 date: 2020-12-08T15:13:13.021Z
 image: ../../../static/img/2030.jpg
 tags:
-  - world economic forum
-  - SF
+  - critical-zone
+  - speculative-thinking
+  - post-capitalism
 ---
 
 <div class="rounded-md bg-yellow-50 p-4">

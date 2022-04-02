@@ -4,9 +4,8 @@ description: Si sente sempre parlare di post-capitalismo come un'era a venire, s
 date: 2021-03-14T15:13:13.021Z
 image: ../../../static/img/value.jpeg
 tags:
-  - tecnica
-  - severino
-  - futuro
+  - post-capitalism
+  - emanuele-severino
 ---
 
 Si sente sempre parlare di post-capitalismo come un'era a venire, situata sempre un po più in la, in un futuro prossimo ma non ancora ben determinato. 

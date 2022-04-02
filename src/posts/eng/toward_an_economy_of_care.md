@@ -1,7 +1,8 @@
 ---
 title: Toward an economy of care
-description: Welcome to the year 2030. Welcome to my critical zone - or should I say, "our critical “zone. 
+description: Thinking and doing beyond the outbreak, care as a value framework for designing p2p distributed network protocols enabling circular economy 
 date: 2020-04-09T15:13:13.021Z
+tags: [care, circular-economy, federated-network, post-capitalism, covid]
 image: ../../../static/img/economy-of-care.jpeg
 ---
 

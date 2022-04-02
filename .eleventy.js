@@ -16,6 +16,44 @@ module.exports = function (eleventyConfig) {
     );
   });
 
+  // Create a collection of all tags
+  eleventyConfig.addCollection("tags", function (collection) {
+    return collection.getFilteredByGlob("./posts/*.md").reduce(function (acc, item) {
+      const tags = item.data.tags; 
+      if (tags) { 
+        for (const tag of tags) {
+          if (!acc[tag]) {
+            acc[tag] = [];
+          }
+          acc[tag].push(item);
+        }
+      }
+      return acc;
+    }, {});
+  });
+      
+  
+  eleventyConfig.addFilter("filterTagList", tags => {
+    // should match the list in tags.njk
+    return (tags || []).filter(tag => ["all", "nav", "post", "posts"].indexOf(tag) === -1);
+  })
+
+  eleventyConfig.addCollection("tagList", collection => {
+    const tagsSet = new Set();
+    collection.getAll().forEach(item => {
+      if (!item.data.tags) return;
+      item.data.tags
+        .filter(tag => !['post', 'all'].includes(tag))
+        .forEach(tag => tagsSet.add(tag));
+    });
+    return Array.from(tagsSet).sort();
+  });
+
+  // Filter a collection to only include unique items
+  eleventyConfig.addFilter("unique", (array) => {
+    return Array.from(new Set(array));  // Set removes duplicates
+  }); 
+
   // Syntax Highlighting for Code blocks
   eleventyConfig.addPlugin(syntaxHighlight);
 

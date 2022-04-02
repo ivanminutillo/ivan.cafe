@@ -4,9 +4,9 @@ description: Alle alleanze! Fu il brindisi urlato da Alekos al culmine di un inc
 date: 2022-03-25T15:13:13.021Z
 image: ../../../static/img/cc.jpeg
 tags:
-  - precarietà
-  - anna tsing
-  - alleanze
+  - precariety
+  - anna-tsing
+  - alliances
   - bonfire
 ---
 
