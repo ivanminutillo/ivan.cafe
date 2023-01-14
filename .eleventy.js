@@ -1,6 +1,7 @@
 const yaml = require("js-yaml");
 const { DateTime } = require("luxon");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function (eleventyConfig) {
   // Disable automatic use of your .gitignore
@@ -16,6 +17,9 @@ module.exports = function (eleventyConfig) {
     );
   });
 
+  eleventyConfig.addPlugin(pluginRss);
+
+  
   // Create a collection of all tags
   eleventyConfig.addCollection("tags", function (collection) {
     return collection.getFilteredByGlob("./posts/*.md").reduce(function (acc, item) {
