@@ -1,6 +1,6 @@
 ---
 title: Weeknote 2/2023
-description: In an effort to declutter my life, I finally decided to delete my Twitter account.
+description: Alfredo Cospito is an anarchist and he went on hunger strike the 20th of October to protest against the 41-bis, the disumane prison regime applied to him by the italian court of cassation.
 date: 2023-01-14T15:13:13.021Z
 tags: [weeknote, cospito]
 image: ../../../static/img/cospito.jpeg
