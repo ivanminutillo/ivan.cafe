@@ -1,5 +1,5 @@
 ---
-title: Weeknote 2/2023 - Making kin in the fediverse
+title: Weeknote 3/2023 - Making kin in the fediverse
 description: This week I started reading a new book called Making Kin not Population Reconceiving Generations. The book is a collection of short feminist essays curated by Donna Haraway and Adele Clarke. 
 date: 2023-01-23T15:13:13.021Z
 tags: [weeknote, haraway, bonfire, feminism]
